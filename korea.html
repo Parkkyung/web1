@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+ <head>
+   <meta charset="utf-8">
+   <title>인강은? 심경마이맥!</title>
+   <style>
+     body{
+       margin:0;
+     }
+     h2 {
+       font-size:45px;
+       text-align: center;
+       border-bottom:1px solid gray;
+       margin:0;
+     }
+     ol{
+       border-right:1px solid gray;
+       width:125px;
+       margin:0px;
+       padding:20px;
+     }
+     #login {
+       border-bottom:1px solid gray;
+     }
+
+		 <style>
+		 * {padding:0;margin:0;}
+		 input[id="menuicon"] {display:none;}
+		 input[id="menuicon"] + ul {display:block;position:fixed;right:0;top:50%;transform:translateY(-50%);transition:all .35s;text-align:right;}
+		 input[id="menuicon"] + ul > li {display:block;width:50px;height:50px;border:1px solid #f1f1f1;position:relative;margin-top:-1px;}
+		 input[id="menuicon"] + ul > li > a {display:block;width:auto;height:50px;overflow:hidden;transition:all .35s;}
+		 input[id="menuicon"] + ul > li > label {display:block;cursor:pointer;width:auto;height:50px;background:#dadada;}
+		 input[id="menuicon"] + ul > li:nth-child(1) label span {display:block;position:absolute;width:50%;height:3px;border-radius:30px;background:#333;transition:all .35s;}
+		 input[id="menuicon"] + ul > li:nth-child(1) label span:nth-child(1) {top:30%;left:50%;transform:translateX(-50%);}
+		 input[id="menuicon"] + ul > li:nth-child(1) label span:nth-child(2) {top:50%;left:50%;transform:translate(-50%,-50%);}
+		 input[id="menuicon"] + ul > li:nth-child(1) label span:nth-child(3) {bottom:30%;left:50%;transform:translateX(-50%);}
+		 input[id="menuicon"] + ul > li:nth-child(2) a .icon {background:url('./img/search.png') center center no-repeat;background-size:50%;display:inline-block;width:50px;height:50px;vertical-align:middle;}
+		 input[id="menuicon"] + ul > li:nth-child(3) a .icon {background:url('./img/sand-clock.png') center center no-repeat;background-size:50%;display:inline-block;width:50px;height:50px;vertical-align:middle;}
+		 input[id="menuicon"]:checked + ul {z-index:2;right:300px;}
+		 input[id="menuicon"]:checked + ul > li:nth-child(1) label {z-index:2;right:300px;}
+		 input[id="menuicon"]:checked + ul > li:nth-child(1) label span:nth-child(1) {top:50%;left:50%;transform:translate(-50%,-50%) rotate(45deg);}
+		 input[id="menuicon"]:checked + ul > li:nth-child(1) label span:nth-child(2) {opacity:0;}
+		 input[id="menuicon"]:checked + ul > li:nth-child(1) label span:nth-child(3) {bottom:50%;left:50%;transform:translate(-50%,50%) rotate(-45deg);}
+		 div[class="sidebar"] {width:300px;height:100%;background:#f5f5f5;position:fixed;top:0;right:-300px;z-index:1;transition:all .35s;}
+		 input[id="menuicon"]:checked + ul + div {right:0;}
+
+     ul{
+
+     list-style:none;
+
+     list-style-type:none;
+
+     }
+
+     </style>
+
+ </head>
+ <body>
+	 <input type="checkbox" id="menuicon">
+	 <ul>
+	 	<li>
+	 		<label for="menuicon">
+	 			<span></span><span></span><span></span>
+	 		</label>
+	 	</li>
+	 </ul>
+
+	 <div class="sidebar">
+     <p><h1 style="padding-left: 75px; padding-bottom:10px;">마이맥 메뉴</h1></p>
+   	<ul>
+   	<a href="admin.html"><li style="padding-left:75px;color:black;"><h3>관리진</h3></li></a>
+   	<li style="padding-left:75px;"><h3>제작도움</h3></li>
+   	</ul>
+   	<ul>
+   	<li>ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+   	</li>
+   	</ul>
+   	<ul>
+   	<a href="index3.html"><h1 style="padding-left:40px; color:black;">마이맥 과목</h1></a>
+   	</ul>
+  <ul>
+	 </div>
+
+   <div style="float: left;">
+     <a href="index2.html">
+       <img src="m.jpg" width="200">
+     </a>
+   </div>
+
+   <h2>어서오거라</h2>
+   <div id="a" style="position:relative; float:left;">
+      <ol style="position: relative; z-index: 200; padding-left: 1px; padding-top: 0px; padding-right: 25px; padding-bottom: 0px;">
+				<div id="login" style="
+    width: 150px;
+    height: 100px;
+">
+  어서오세요!!<br>
+  [][]마이맥 입니다.
+  <a href="index.html"><input type="button" value="로그아웃" onclick="alert('로그아웃 되었습니다.')"></a>
+       </ol>
+       <div id="t">
+         <img src="선생님 설명.png" style="position:absolute;left:60px;left: 150px;top: -1;top: 0px;">
+         <img src="고석현2.jpg" style="position:absolute;width: 263px;height: 248px;left: 151px;top: 0px; ">
+          <div id="t-a">
+         <p style="position:relative;left: 415px;margin-top: 0px;bottom:100px;">고석현:찬찬히 국어를 톺아보겠습니다!</p>
+        </div>
+        <img src="색상 매트.png" style="position:absolute;left: 150px;top: 250px;width: 1310px;">
+       </div>
+       <div id="t3">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/AzxtiYztFTY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;left: 150px;top: 340px;width: 800px;height: 500px;"></iframe>
+         <h1><p style="position:relative;top: 120px;left: 150px;">1.톺아보는 국어 5- 바른 언어생활 1</p></h1>
+       </div>
+  </div>
+ </body>
+</html>
